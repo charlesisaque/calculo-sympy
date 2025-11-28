@@ -1,8 +1,3 @@
-# ==========================================================
-#  PROJETO DE CÁLCULO — LIMTES, DERIVADAS E INTEGRAIS
-#  Versão com init_printing() e saída simbólica "bonitinha"
-# ==========================================================
-
 from sympy import (
     symbols, diff, limit, integrate,
     sin, cos, tan, cot, sec, asin,
@@ -13,11 +8,6 @@ from sympy import pretty as sympy_pretty
 # Ativa impressão simbólica bonita
 init_printing(use_unicode=True)
 
-
-# ==========================================================
-# BANNER PERSONALIZADO
-# ==========================================================
-
 print(r"""
 ░██████╗██╗░░░██╗███╗░░░███╗██████╗░██╗░░░██╗
 ██╔════╝╚██╗░██╔╝████╗░████║██╔══██╗╚██╗░██╔╝
@@ -27,13 +17,7 @@ print(r"""
 ╚═════╝░░░░╚═╝░░░╚═╝░░░░░╚═╝╚═╝░░░░░░░░╚═╝░░░
 """)
 
-
-# ==========================================================
-# VARIÁVEIS SIMBÓLICAS
-# ==========================================================
-
 t, x = symbols("t x")
-
 
 # ==========================================================
 #     FUNÇÃO DE IMPRESSÃO PERSONALIZADA
